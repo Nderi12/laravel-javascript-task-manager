@@ -1,0 +1,22 @@
+/* (A) LIST STYLES */
+.orderableList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .orderableList li {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #dfdfdf;
+    background: #f5f5f5;
+  }
+  
+  /* (B) DRAG-AND-DROP HINT */
+  .orderableList li.hint {
+    border: 1px solid #ffc49a;
+    background: #feffb4;
+  }
+  .orderableList li.active {
+    border: 1px solid #ffa5a5;
+    background: #ffe7e7;
+}
